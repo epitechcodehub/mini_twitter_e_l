@@ -27,8 +27,7 @@ class Comment(BaseModel):
 class Post(BaseModel) :
     post_id : int
     content : str
-    img : str
-    user : str
+    title : str
     comments : list
 
 @app.get("/")
