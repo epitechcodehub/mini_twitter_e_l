@@ -17,7 +17,7 @@ def get_db():
 
 @app.get("/")
 async def home():
-    return {"message": "Hello sword!"}
+    return {"message": "Wassup gang'"}
 
 @app.post("/createpost")
 async def create_post(req:PostSchema, db: Session = Depends(get_db)):
